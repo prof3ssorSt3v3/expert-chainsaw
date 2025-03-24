@@ -7,6 +7,14 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --header-bg: rgb(243, 176, 168);
+  --header-txt: #111;
+
+  --btn-bg-info: #305ef5;
+  --btn-bg-success: #0d810d;
+  --btn-bg-warn: #c20a0a;
+  --btn-text: #ededed;
 }
 
 body {

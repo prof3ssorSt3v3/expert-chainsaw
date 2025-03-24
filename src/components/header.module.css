@@ -1,2 +1,10 @@
 .header {
+  margin: 0;
+  padding: 1rem 2rem;
+  background-color: var(--header-bg);
+}
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: var(--header-txt);
 }

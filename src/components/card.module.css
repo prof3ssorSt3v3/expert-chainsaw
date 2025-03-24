@@ -1,2 +1,11 @@
 .card {
+  width: 30ch;
+  border: 1px solid #555;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.btn {
+  background-color: var(--btn-bg-warn);
+  color: var(--btn-txt);
 }
