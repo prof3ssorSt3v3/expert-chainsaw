@@ -16,8 +16,8 @@ export default function App({ children }) {
       <Header eric={true}>
         <p>Common part for every version of header</p>
       </Header>
+      <h2>There are {names.length} names.</h2>
       <main>
-        <h2>There are {names.length} names.</h2>
         {names.map((n) => (
           <Card key={n.login.uuid} name={n} />
         ))}

@@ -6,7 +6,7 @@ import { UserProvider } from './context/users.context.jsx';
 import { ThemeProvider } from './context/theme.context.jsx';
 
 const theme = {
-  favorite: '#bada55',
+  favorite: 'steelblue',
 };
 
 createRoot(document.getElementById('root')).render(

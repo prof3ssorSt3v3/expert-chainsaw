@@ -1,9 +1,11 @@
-import { createContext, useContext } from 'react';
+import { createContext, useContext, useState } from 'react';
 
 const ThemeContext = createContext();
 
 function ThemeProvider(props) {
-  return <ThemeContext.Provider {...props} value={[]} />;
+  const [theme, setTheme] = useState(props.theme);
+
+  return <ThemeContext.Provider {...props} value={[theme]} />;
 }
 
 function useTheme() {
