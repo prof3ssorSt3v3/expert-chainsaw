@@ -4,7 +4,9 @@ export default function App() {
   return (
     <>
       <Header />
-      <main></main>
+      <main>
+        <p>https://randomuser.me/api/?results=5&nat=gb,ca,us&inc=name,login</p>
+      </main>
     </>
   );
 }
